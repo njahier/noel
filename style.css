@@ -23,7 +23,7 @@ header h1, header ul{
 
 nav{
   width: 1170px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 body{
@@ -40,7 +40,6 @@ h2{
 .menu li {
   float:left;
   margin:5px;
-
 }
 
 .menu{
@@ -49,20 +48,28 @@ h2{
    text-decoration: none;
 }
 
+.radiusmenu{
+  border-radius: 5px;
+  border:1px solid grey;
+  margin-left: 20px;
+}
+
 .left{
   width: 25%;
   float: left;
   padding-right: 20px;
+  height: auto;
 }
 
 #category1{
   background-color: blue;
-  border:1px solid grey;
-  margin-left: 20px;
+  color:white;
+  padding: 5px;
 }
 #category_n{
-  border:1px solid grey;
-  margin-left: 20px;
+
+  border-top:1px solid grey;
+  padding: 5px;
 }
 
 .right{
@@ -70,21 +77,100 @@ h2{
   float:left;
   border:1px solid grey;
   margin-top: 10px;
-
+  border-radius: 5px;
 }
 
+.texte_centre{
+  margin-left: 10px;
+  margin-top: 10px;
+}
 #product_name{
   color: blue;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 .prix{
   float:right;
   color:black;
+  margin-right: 10px;
 }
 
 .text_blue{
   color:blue;
 }
+
+#etoiles{
+  color:#FF69B4;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.reviews{
+  float: right;
+  margin-right: 10px;
+}
+
+.article2{
+  width:802px;
+  float:right;
+  border:1px solid grey;
+  background-color: LightGrey;
+  margin-top: 20px;
+  margin-right: 75px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.block{
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.bouton{
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #006400;
+  padding: 5px;
+}
+.barre_grise{
+  border-bottom: 1px solid #808080;
+  width:95%;
+  margin:auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  clear: both;
+}
+.barre_grise2{
+  border-bottom: 1px solid #808080;
+  width:100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  clear: both;
+}
+.review1{
+  float:left;
+  display: block;
+  position: relative;
+  width:100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.days_ago{
+  float: right;
+  margin-right: 40px;
+}
+
+#article_centre{
+  display: block;
+}
+
 footer{
-  width: 1170px;
-  margin-left:20px;
-  }
+  margin: 20px;
+  float:left;
+}
